@@ -1,0 +1,30 @@
+ def chatbot():
+    print(" Hi! I am your AI Friend Chatbot.")
+    name = input("What's your name? ")
+    print(f"Nice to meet you, {name!")
+
+    color = input(" What's your favorite color? ")
+    if color.lower() == "pink":
+        print("Wow! Pink is so cute ")
+    elif color.lower() == "black":
+        print("Black is bold and classy ")
+    else:
+        print(f"{color} is a beautiful color! ")
+
+    hobby = input("What's your favorite hobby? ")
+    print(f"That's great, {name}! I also like {hobby} sometimes ")
+
+    mood = input(" How are you feeling today? (happy/sad/tired) ")
+    if mood.lower() == "happy":
+        print("Yay! Stay happy and keep smiling ")
+    elif mood.lower() == "sad":
+        print("Ohh, don’t worry  Everything will be fine soon ")
+    elif mood.lower() == "tired":
+        print("Take some rest  and drink water ")
+    else:
+        print("Thanks for sharing your mood! ")
+
+    print(f"It was nice talking with you, {name}. Bye! ")
+
+# Run chatbot
+chatbot()
